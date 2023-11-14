@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xo-union/tab-accessibility": "^5.0.1",
+    "@xo-union/tk-ui-breakpoints": "^5.1.8",
+    "@xo-union/tk-ui-essentials": "^10.0.17",
+    "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.2"
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@xo-union/util-webpack": "^2.0.2",
+    "css-module-builder": "^2.0.6",
     "eslint": "^8",
-    "eslint-config-next": "14.0.2"
+    "eslint-config-next": "14.0.2",
+    "typescript": "^5"
   }
 }

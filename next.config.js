@@ -1,4 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+const { CSSModuleRule } = require("@xo-union/util-webpack");
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  webpack(config) {
+    config.module.rules.push(CSSModuleRule());
+    return config;
+  },
+};
+
+module.exports = nextConfig;
