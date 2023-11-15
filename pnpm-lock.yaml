@@ -11,6 +11,9 @@ dependencies:
   '@xo-union/tab-accessibility':
     specifier: ^5.0.1
     version: 5.0.1(@xo-union/tk-ui-colors@4.5.0)
+  '@xo-union/tk-component-header-nav':
+    specifier: ^21.5.0
+    version: 21.5.0(@types/react@18.2.37)(@xo-union/dist-iconography@7.1.0)(@xo-union/dist-vendor-iconography@2.0.15)(@xo-union/tk-ui-breakpoints@5.1.8)(@xo-union/tk-ui-colors@4.5.0)(@xo-union/tk-ui-typography@7.0.3)(react-dom@18.2.0)(react@18.2.0)
   '@xo-union/tk-ui-breakpoints':
     specifier: ^5.1.8
     version: 5.1.8(react@18.2.0)

@@ -6,6 +6,7 @@ import { ENV } from "@env";
 import "@xo-union/tk-ui-essentials";
 
 import "./globals.scss";
+import { Shell } from "./Shell/Shell";
 
 export default function RootLayout({
   children,
@@ -38,7 +39,9 @@ export default function RootLayout({
     <html lang="en">
       <head>{serverSideHTML.head}</head>
 
-      <body>{children}</body>
+      <body>
+        <Shell>{children}</Shell>
+      </body>
     </html>
   );
 }
