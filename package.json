@@ -1,5 +1,5 @@
 {
-  "name": "paper-catalog",
+  "name": "next-14",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@xo-union/nextjs": "^5.1.14",
     "@xo-union/tab-accessibility": "^5.0.1",
     "@xo-union/tk-ui-breakpoints": "^5.1.8",
     "@xo-union/tk-ui-essentials": "^10.0.17",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "sass": "^1.69.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {
